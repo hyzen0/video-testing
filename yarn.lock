@@ -8130,7 +8130,14 @@
   "resolved" "https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz"
   "version" "1.0.4"
 
-"mongodb@3.6.4":
+"mongo@^0.1.0":
+  "integrity" "sha1-yK8PjfmNSJS3crNzQph8O+zzcYw="
+  "resolved" "https://registry.npmjs.org/mongo/-/mongo-0.1.0.tgz"
+  "version" "0.1.0"
+  dependencies:
+    "mongodb" "*"
+
+"mongodb@*", "mongodb@^3.6.4", "mongodb@3.6.4":
   "integrity" "sha512-Y+Ki9iXE9jI+n9bVtbTOOdK0B95d6wVGSucwtBkvQ+HIvVdTCfpVRp01FDC24uhC/Q2WXQ8Lpq3/zwtB5Op9Qw=="
   "resolved" "https://registry.npmjs.org/mongodb/-/mongodb-3.6.4.tgz"
   "version" "3.6.4"
